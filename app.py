@@ -11,7 +11,7 @@ def hello_world():
     return "hello world"
 
 @app.route('/ping')
-def hello_world():
+def ping():
     return "pong"
 
 @app.route('/cat.jpg')
